@@ -1,0 +1,21 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "leetcode solutions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "repository": "https://github.com/zhqu1148980644/leetcode",
+  "author": "bakezq",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^10.0.4",
+    "nextra": "^0.3.2",
+    "nextra-theme-docs": "^1.0.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
