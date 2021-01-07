@@ -1,8 +1,11 @@
 ---
-title: Hamming Distance
+title: 461. Hamming Distance
 date: 2021-01-04
 ---
-##### The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
+# 461. Hamming Distance
+
+
+The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
 
 Given two integers x and y, calculate the Hamming distance.
 
