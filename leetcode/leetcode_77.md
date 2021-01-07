@@ -1,8 +1,10 @@
 ---
-title: Combinations
+title: 77. Combinations
 date: 2021-01-04
 ---
-#### Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
+# 77. Combinations
+
+Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
 
 ```
 Example:
