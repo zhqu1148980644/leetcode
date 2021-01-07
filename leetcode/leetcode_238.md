@@ -1,8 +1,10 @@
 ---
-title: Product of Array Except Self
+title: 238. Product of Array Except Self
 date: 2021-01-04
 ---
-##### Given an array nums of n integers where n > 1,  return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+# 238. Product of Array Except Self
+
+Given an array nums of n integers where n > 1,  return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
 
 ```
 Example:
