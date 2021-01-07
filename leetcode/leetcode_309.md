@@ -1,8 +1,10 @@
 ---
-title: Best Time to Buy and Sell Stock with Cooldown
+title: 309. Best Time to Buy and Sell Stock with Cooldown
 date: 2021-01-04
 ---
-#### Say you have an array for which the ith element is the price of a given stock on day i.
+# 309. Best Time to Buy and Sell Stock with Cooldown
+
+Say you have an array for which the ith element is the price of a given stock on day i.
 
 Design an algorithm to find the maximum profit. You may complete as many transactions as you like (ie, buy one and sell one share of the stock multiple times) with the following restrictions:
 
