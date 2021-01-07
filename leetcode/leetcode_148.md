@@ -1,8 +1,11 @@
 ---
-title: Sort List
+title: 148. Sort List
 date: 2021-01-04
 ---
-##### Sort a linked list in O(n log n) time using constant space complexity.
+
+# 148. Sort List
+
+Sort a linked list in O(n log n) time using constant space complexity.
 
 ```
 Example 1:
