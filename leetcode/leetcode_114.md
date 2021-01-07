@@ -1,8 +1,11 @@
 ---
-title: Flatten Binary Tree to Linked List
+title: 114. Flatten Binary Tree to Linked List
 date: 2021-01-04
 ---
-##### Given a binary tree, flatten it to a linked list in-place.
+
+# 114. Flatten Binary Tree to Linked List
+
+Given a binary tree, flatten it to a linked list in-place.
 
 ```
 For example, given the following tree:
