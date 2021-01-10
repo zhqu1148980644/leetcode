@@ -29,19 +29,18 @@ class Solution {
 public:
     vector<string> summaryRanges(vector<int>& nums) {
         vector<string> res;
+        int i = 0, n = nums.size();
 
-        int i = 0, j = 0;
-
-        while (j < nums.size()) {
-            if (!(j + 1 < nums.size() && nums[j + 1] == nums[j] + 1)) {
+        for (int j = 0; j < n; j++) {
+            if (j == n - 1 ||  nums[j + 1] != (long)nums[j] + 1) {
                 string cur = to_string(nums[i]);
-                if (j != i)
+                if (j - i > 0)
                     cur += "->" + to_string(nums[j]);
                 res.push_back(cur);
                 i = j + 1;
             }
-            j++;
         }
+
         return res;
     }
 };
