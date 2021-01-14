@@ -31,11 +31,10 @@ Note:
 
 #### Solutions
 
-1. ##### UnionFind
+1. ##### UnionFind, merge stones O(n2)
 
 - Connect stones pairs with the same row/column into communities. For each community with size greater 1, the maximum possible number of moves equals to iteratively removeing leaf nodes, i.e. : `size - 1`.
 
-- Merging stones. Need to check all pairs, O(n2) complexity
 
 ```cpp
 struct UnionFind {
@@ -48,7 +47,7 @@ struct UnionFind {
             return nodes[node] = find(nodes[node]);
         return node;
     }
-    bool merge(int node1, int node2) {
+    void merge(int node1, int node2) {
         int  f1 = find(node1), f2 = find(node2);
         if (f1 == f2) return;
         if (sizes[f1] > sizes[f2])
@@ -79,7 +78,7 @@ public:
 };
 ```
 
-- mergging rows with columns, O(n)
+2. ##### UnionFind merge row/columns. O(20000)
 
 ```cpp
 struct UnionFind {
@@ -123,7 +122,7 @@ public:
 ```
 
 
-2. ##### dfs
+3. ##### dfs
 
 - Find all communities and their corresponding sizes using dfs.
 
