@@ -80,12 +80,11 @@ public:
         unordered_map<int, vector<string>> users;
         for (auto & [e, id] : email2id)
             users[uf.find(id)].push_back(e);
-        // reverse sort
-        for (auto & [id, emails] : users)
-            sort(emails.rbegin(), emails.rend());
         // build result
         vector<vector<string>> res;
         for (auto & [id, emails] : users) {
+            // reverse sort
+            sort(emails.rbegin(), emails.rend());
             emails.push_back(accounts[id][0]);
             reverse(emails.begin(), emails.end());
             res.push_back(move(emails));
