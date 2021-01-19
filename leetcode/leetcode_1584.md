@@ -2,6 +2,9 @@
 title: Min Cost to Connect All Points
 date: 2021-01-04
 ---
+
+# 1584. Min Cost to Connect All Points
+
 You are given an array points representing integer coordinates of some points on a 2D-plane, where points[i] = [xi, yi].
 
 The cost of connecting two points [xi, yi] and [xj, yj] is the manhattan distance between them: |xi - xj| + |yi - yj|, where |val| denotes the absolute value of val.
@@ -49,12 +52,14 @@ All pairs (xi, yi) are distinct.
 
 - A typical minimum spanning tree problem
 
-1. ##### kruskal algorithm O(E^2log(E))
+1. ##### kruskal algorithm O(n^2log(n))
+
+- gets TLE
 
 ```cpp
 struct UnionFind {
-    vector<int> nodes;
-    UnionFind(int size) : nodes(size) {
+    vector<int> nodes, sizes;
+    UnionFind(int size) : nodes(size), sizes(size, 1) {
         iota(nodes.begin(), nodes.end(), 0);
     }
     int find(int node) {
@@ -63,7 +68,10 @@ struct UnionFind {
     bool merge(int node1, int node2) {
         int f1 = find(node1), f2 = find(node2);
         if (f1 == f2) return false;
+        if (sizes[f1] > sizes[f2])
+            swap(f1, f2);
         nodes[f1] = f2;
+        sizes[f2] += sizes[f1];
         return true;
     }
 };
@@ -72,19 +80,20 @@ public:
     int minCostConnectPoints(vector<vector<int>>& points) {
         int n = points.size();
         UnionFind uf(n);
-
-        multimap<int, pair<int, int>> edges;
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                auto e = abs(points[i][0] - points[j][0]) 
+        
+        vector<tuple<int, int, int>> edges;
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < n; j++) {
+                auto e = abs(points[i][0] - points[j][0])
                        + abs(points[i][1] - points[j][1]);
-                edges.emplace(e, make_pair(i, j));
+                edges.emplace_back(e, i, j);
             }
-        }
+        
+        sort(edges.begin(), edges.end());
 
         int comsize = n, res = 0;
-        for (auto & [e, p] : edges) {
-            if (uf.merge(p.first, p.second)) {
+        for (auto & [e, i, j] : edges) {
+            if (uf.merge(i, j)) {
                 res += e;
                 if (--comsize == 1) break;
             }
