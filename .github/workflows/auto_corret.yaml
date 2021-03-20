@@ -1,7 +1,7 @@
 # check for leetcode solutions with wrong id
 # Because the problem id will be settled few days later after the competition.
 
-name: AUTO_TASK_FOR_BILIBILI
+name: Auto Check
 
 on:
   push:
@@ -18,6 +18,7 @@ jobs:
     steps:
     - name: auto check
       run: |
+        pwd && ls *
         python3 leetcode/auto_correct.py
     - uses: actions/checkout@v2
       with:
