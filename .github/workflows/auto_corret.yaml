@@ -16,14 +16,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: auto check
-      run: |
-        ls
-        python3 leetcode/auto_correct.py
     - uses: actions/checkout@v2
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: auto check
+      run: |
+        ls -
+        python3 leetcode/auto_correct.py
     - name: Create local changes
       run: |
         git add *
