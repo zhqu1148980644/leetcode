@@ -10,7 +10,6 @@ for cls in classes:
     req = requests.get(LEETCODE_PROBLEMS)
     problems += req.json()['stat_status_pairs']
 
-
 keys = ['frontend_question_id', 'question__title']
 
 v_id_title = [[p['stat'][k] for k in keys] for p in problems]
