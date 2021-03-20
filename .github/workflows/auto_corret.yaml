@@ -18,7 +18,7 @@ jobs:
     steps:
     - name: auto check
       run: |
-        ls ./*
+        ls
         python3 leetcode/auto_correct.py
     - uses: actions/checkout@v2
       with:
