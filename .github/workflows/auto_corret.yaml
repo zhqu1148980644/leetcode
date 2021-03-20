@@ -16,11 +16,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
+    - name: auto check
       run: |
-        python leetcode/auto_correct.py
+        python3 leetcode/auto_correct.py
     - uses: actions/checkout@v2
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
