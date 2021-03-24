@@ -1,9 +1,9 @@
 ---
-title: 5694. Design Authentication Manager
+title: 1797. Design Authentication Manager
 date: 2021-03-21
 ---
 
-# 5694. Design Authentication Manager
+# 1797. Design Authentication Manager
 
 There is an authentication system that works with authentication tokens. For each session, the user will receive a new authentication token that will expire timeToLive seconds after the currentTime. If the token is renewed, the expiry time will be extended to expire timeToLive seconds after the (potentially different) currentTime.
 

@@ -1,9 +1,9 @@
 ---
-title: 5693. Second Largest Digit in a String
+title: 1796. Second Largest Digit in a String
 date: 2021-03-21
 ---
 
-# 5693. Second Largest Digit in a String
+# 1796. Second Largest Digit in a String
 
 Given an alphanumeric string s, return the second largest numerical digit that appears in s, or -1 if it does not exist.
 

@@ -1,9 +1,9 @@
 ---
-title: 5695. Maximize Score After N Operations
+title: 1799. Maximize Score After N Operations
 date: 2021-03-21
 ---
 
-# 5695. Maximize Score After N Operations
+# 1799. Maximize Score After N Operations
 
 You are given nums, an array of positive integers of size 2 * n. You must perform n operations on this array.
 
