@@ -1,9 +1,9 @@
 ---
-title: 5722. Truncate Sentence
+title: 1816. Truncate Sentence
 date: 2021-04-04
 ---
 
-# 5722. Truncate Sentence
+# 1816. Truncate Sentence
 
 
 A sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each of the words consists of only uppercase and lowercase English letters (no punctuation).

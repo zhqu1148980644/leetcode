@@ -1,9 +1,9 @@
 ---
-title: 5724. Minimum Absolute Sum Difference
+title: 1818. Minimum Absolute Sum Difference
 date: 2021-04-04
 ---
 
-# 5724. Minimum Absolute Sum Difference
+# 1818. Minimum Absolute Sum Difference
 
 You are given two positive integer arrays nums1 and nums2, both of length n.
 
