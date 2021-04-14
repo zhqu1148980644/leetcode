@@ -1,7 +1,8 @@
 ---
-title: 5728. Minimum Sideway Jumps
+title: 1824. Minimum Sideway Jumps
 date: 2021-04-11
 ---
+# 1824. Minimum Sideway Jumps
 
 There is a 3 lane road of length n that consists of n + 1 points labeled from 0 to n. A frog starts at point 0 in the second lane and wants to jump to point n. However, there could be obstacles along the way.
 

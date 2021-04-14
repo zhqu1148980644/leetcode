@@ -1,7 +1,8 @@
 ---
-title: 5726. Sign of the Product of an Array
+title: 1822. Sign of the Product of an Array
 date: 2021-04-11
 ---
+# 1822. Sign of the Product of an Array
 
 There is a function signFunc(x) that returns:
 
