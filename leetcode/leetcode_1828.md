@@ -1,9 +1,9 @@
 ---
-title: 5718. Queries on Number of Points Inside a Circle
+title: 1828. Queries on Number of Points Inside a Circle
 date: 2021-04-17
 ---
 
-# 5718. Queries on Number of Points Inside a Circle
+# 1828. Queries on Number of Points Inside a Circle
 
 You are given an array points where points[i] = [xi, yi] is the coordinates of the ith point on a 2D plane. Multiple points can have the same coordinates.
 

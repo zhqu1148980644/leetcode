@@ -1,9 +1,9 @@
 ---
-title: 5719. Maximum XOR for Each Query
+title: 1829. Maximum XOR for Each Query
 date: 2021-04-17
 ---
 
-# 5719. Maximum XOR for Each Query
+# 1829. Maximum XOR for Each Query
 
 You are given a sorted array nums of n non-negative integers and an integer maximumBit. You want to perform the following query n times:
 
