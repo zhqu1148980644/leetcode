@@ -1,9 +1,9 @@
 ---
-title: 5737. Find XOR Sum of All Pairs Bitwise AND
+title: 1835. Find XOR Sum of All Pairs Bitwise AND
 date: 2021-04-18
 ---
 
-# 5737. Find XOR Sum of All Pairs Bitwise AND
+# 1835. Find XOR Sum of All Pairs Bitwise AND
 
 The XOR sum of a list is the bitwise XOR of all its elements. If the list only contains one element, then its XOR sum will be equal to this element.
 

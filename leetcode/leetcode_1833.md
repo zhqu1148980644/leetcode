@@ -1,9 +1,9 @@
 ---
-title: 5735. Maximum Ice Cream Bars
+title: 1833. Maximum Ice Cream Bars
 date: 2021-04-18
 ---
 
-# 5735. Maximum Ice Cream Bars
+# 1833. Maximum Ice Cream Bars
 
 It is a sweltering summer day, and a boy wants to buy some ice cream bars.
 

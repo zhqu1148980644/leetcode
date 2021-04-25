@@ -1,9 +1,9 @@
 ---
-title: 5736. Single-Threaded CPU
+title: 1834. Single-Threaded CPU
 date: 2021-04-18
 ---
 
-# 5736. Single-Threaded CPU
+# 1834. Single-Threaded CPU
 
 You are given n​​​​​​ tasks labeled from 0 to n - 1 represented by a 2D integer array tasks, where tasks[i] = [enqueueTimei, processingTimei] means that the i​​​​​​th​​​​ task will be available to process at enqueueTimei and will take processingTimei to finish processing.
 

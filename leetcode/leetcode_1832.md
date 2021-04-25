@@ -1,9 +1,9 @@
 ---
-title: 5734. Check if the Sentence Is Pangram
+title: 1832. Check if the Sentence Is Pangram
 date: 2021-04-10
 ---
 
-# 5734. Check if the Sentence Is Pangram
+# 1832. Check if the Sentence Is Pangram
 
 A pangram is a sentence where every letter of the English alphabet appears at least once.
 
