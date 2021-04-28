@@ -1,9 +1,9 @@
 ---
-title: 5739. Frequency of the Most Frequent Element
+title: 1838. Frequency of the Most Frequent Element
 date: 2021-04-25
 ---
 
-# 5739. Frequency of the Most Frequent Element
+# 1838. Frequency of the Most Frequent Element
 
 
 The frequency of an element is the number of times it occurs in an array.

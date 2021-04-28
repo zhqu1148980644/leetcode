@@ -1,9 +1,9 @@
 ---
-title: 5740. Longest Substring Of All Vowels in Order
+title: 1839. Longest Substring Of All Vowels in Order
 date: 2021-04-25
 ---
 
-# 5740. Longest Substring Of All Vowels in Order
+# 1839. Longest Substring Of All Vowels in Order
 
 A string is considered beautiful if it satisfies the following conditions:
 
