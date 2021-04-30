@@ -74,3 +74,29 @@ public:
     }
 };
 ```
+
+2. ##### sort, sliding window
+
+```c++
+class Solution {
+public:
+    int maxFrequency(vector<int>& nums, int k) {
+        sort(nums.begin(), nums.end());
+        vector<long> sums(nums.size() + 1);
+        sums[1] = nums[0];
+
+        long res = 1, need = 0;
+        for (int i = 0, j = 1; j < nums.size(); j++) {
+            sums[j + 1] += sums[j] + nums[j];
+            need = (long)nums[j] * (j - i) - (sums[j] - sums[i]);
+            while (need > k) {
+                i++;
+                need = (long)nums[j] * (j - i) - (sums[j] - sums[i]);
+            }
+            res = max((int)res, j - i + 1);
+        }
+
+        return res;
+    }
+};
+```
