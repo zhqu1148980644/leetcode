@@ -1,9 +1,9 @@
 ---
-title: 5746. Minimum Distance to the Target Element
+title: 1848. Minimum Distance to the Target Element
 date: 2021-05-02
 ---
 
-# 5746. Minimum Distance to the Target Element
+# 1848. Minimum Distance to the Target Element
 
 Given an integer array nums (0-indexed) and two integers target and start, find an index i such that nums[i] == target and abs(i - start) is minimized. Note that abs(x) is the absolute value of x.
 

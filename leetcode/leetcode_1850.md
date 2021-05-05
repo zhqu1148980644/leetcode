@@ -1,9 +1,9 @@
 ---
-title: 5749. Minimum Adjacent Swaps to Reach the Kth Smallest Number
+title: 1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number
 date: 2021-05-02
 ---
 
-# 5749. Minimum Adjacent Swaps to Reach the Kth Smallest Number
+# 1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number
 
 You are given a string num, representing a large integer, and an integer k.
 

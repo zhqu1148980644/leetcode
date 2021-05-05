@@ -1,9 +1,9 @@
 ---
-title: 5747. Splitting a String Into Descending Consecutive Values
+title: 1849. Splitting a String Into Descending Consecutive Values
 date: 2021-05-02
 ---
 
-# 5747. Splitting a String Into Descending Consecutive Values
+# 1849. Splitting a String Into Descending Consecutive Values
 
 You are given a string s that consists of only digits.
 
