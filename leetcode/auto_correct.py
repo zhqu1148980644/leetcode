@@ -29,7 +29,7 @@ for f in files:
         if contents[0] != '---\n':
             continue
         candidates = [[nid, title]
-                      for nid, title in v_id_title if title.strip() in contents[1]]
+                      for nid, title in v_id_title if title.strip() == contents[1].strip()]
         if len(candidates) != 1:
             continue
         nid, title = candidates[0]
